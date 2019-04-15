@@ -169,7 +169,9 @@ class DBHelper {
     * Restaurant image URL.
     */
    static imageUrlForRestaurant(restaurant) {
-      return `/img/${restaurant.photograph}`;
+      return `http://derekjleong.tech/Udacity-FE-Restuarant-App-stage-1/img/${
+         restaurant.photograph
+      }`;
    }
 
    /**
