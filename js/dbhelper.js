@@ -8,7 +8,7 @@ class DBHelper {
     */
    static get DATABASE_URL() {
       const port = 8000; // Change this to your server port
-      return `Udacity-FE-Restuarant-App-stage-1/data/restaurants.json`;
+      return `http://derekjleong.tech/Udacity-FE-Restuarant-App-stage-1/data/restaurants.json`;
    }
 
    /**
